@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1BDA5EAD30E495445C98357E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1BDA5EAD30E495445C98357E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		208FFE5BF04B9F70482D3ABB /* Pods_TPHomeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPHomeModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE7A2AB532C0C983618E164 /* Pods_TPHomeModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPHomeModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TPHomeModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPHomeModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,10 +60,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85C0C6CD2C6060C739EC0230 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		85C0C6CD2C6060C739EC0230 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC224EAB395D451C08703E67 /* Pods-TPHomeModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPHomeModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-TPHomeModule_Example/Pods-TPHomeModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AD8D3C6E4FC2B65E3518F719 /* TPHomeModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TPHomeModule.podspec; path = ../TPHomeModule.podspec; sourceTree = "<group>"; };
+		AD8D3C6E4FC2B65E3518F719 /* TPHomeModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TPHomeModule.podspec; path = ../TPHomeModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DB3C55C93272E3298D3EEAB5 /* Pods-TPHomeModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPHomeModule_Example.release.xcconfig"; path = "Target Support Files/Pods-TPHomeModule_Example/Pods-TPHomeModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DF48CEBC299CB054A38E50C8 /* Pods-TPHomeModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPHomeModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TPHomeModule_Tests/Pods-TPHomeModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F569C679C7490EA1A89843C5 /* Pods-TPHomeModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPHomeModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-TPHomeModule_Tests/Pods-TPHomeModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				DF48CEBC299CB054A38E50C8 /* Pods-TPHomeModule_Tests.debug.xcconfig */,
 				F569C679C7490EA1A89843C5 /* Pods-TPHomeModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
